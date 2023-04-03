@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    &__caja{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

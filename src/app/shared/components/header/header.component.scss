@@ -1,0 +1,22 @@
+
+header{
+
+    padding: 10px;
+    background-color: #d2c2c2;
+    margin-bottom: 45px;
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    a{
+        text-decoration: none;
+        font-size: 12px;
+        padding: 15px;
+        color: #ffffff;
+        border-bottom: 2px solid;
+        text-transform: uppercase;
+    }
+    a:hover{
+        color: #6b6b6b;
+    }
+}
