@@ -1,1 +1,4 @@
-<p>form-errors works!</p>
+<span *ngIf="controls[key].errors?.['required']" class="error">This field is required</span>
+<span *ngIf="controls[key].errors?.['minlength']" class="error">Min characters is {{controls[key].errors?.['minlength'].requiredLenght}}</span>
+<span *ngIf="controls[key].errors?.['maxlenght']"class="error">Max characters is {{controls[key].errors?.['minlength'].requiredLenght}}</span>
+<span *ngIf="controls[key].errors?.['email']" class="error">This field must need a email format</span>

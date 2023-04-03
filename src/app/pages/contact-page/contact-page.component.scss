@@ -1,4 +1,9 @@
-form{
+.formulario{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    gap: 18px;
+    margin-left: 10%;
+    &__boton{
+        width: 14%;
+    } 
 }

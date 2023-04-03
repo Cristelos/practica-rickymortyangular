@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-form-errors',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./form-errors.component.scss']
 })
 export class FormErrorsComponent {
+
+  @Input() controls: any;
+  @Input() key: any;
+
 
 }

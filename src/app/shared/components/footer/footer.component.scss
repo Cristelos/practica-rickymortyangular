@@ -1,0 +1,12 @@
+.footer{
+    background-color: #b1a5a5;
+    height: 150px;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    &__caja-texto{
+        color: #ffffff;
+    }
+}
