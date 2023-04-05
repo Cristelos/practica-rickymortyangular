@@ -1,7 +1,5 @@
 
-
-
 <div class="contenedor">
-    <app-pages></app-pages>
+    <app-pages (pagina)="getCharacters($event)"></app-pages>
     <app-gallery [character]="character"></app-gallery>
 </div>

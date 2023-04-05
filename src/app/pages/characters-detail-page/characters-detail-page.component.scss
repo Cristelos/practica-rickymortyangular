@@ -3,4 +3,29 @@
     border-radius: 3px;
     margin: 0 25px;
     padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    &__datos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    &__nombre{
+        font-size: 2rem;
+    }
+    &__tipo{
+        font-weight: 700;
+    }
+    &__status{
+        color: #7f7d7d;
+        font-size: 0.8rem;
+    }
+    &__respuesta{
+        color:#7f7d7d;
+        font-weight: 300;
+    }
 }

@@ -7,13 +7,15 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class PagesComponent {
   
-   @Output() pagina = new EventEmitter<number>();
-  
   page: number = 1;
+  
+  @Output() pagina = new EventEmitter();
+  
+ 
 
   changePage(newPage : number){
     this.page = newPage ;
-    this.pagina.emit(this.page);
+    this.pagina.emit(newPage);
     
   }
 

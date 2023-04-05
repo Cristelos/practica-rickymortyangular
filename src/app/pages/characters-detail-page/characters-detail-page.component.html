@@ -1,4 +1,12 @@
-
 <div class="contenedor">
-    <p>characters-detail-page works!</p>
+    <img src="{{detalles.image}}" alt="{{detalles.name}}">
+     <div class="contenedor__datos">
+        <h2 class="contenedor__nombre">{{detalles.name}}</h2>
+        <p class="contenedor__tipo">Estado: <span class="contenedor__respuesta">{{detalles.status}}</span></p>
+        <p class="contenedor__tipo">Tipo:<span class="contenedor__respuesta"> {{detalles.type}}</span></p>
+        <p class="contenedor__tipo">Género: <span class="contenedor__respuesta">{{detalles.gender}}</span></p>
+        <p class="contenedor__tipo">Planeta: <span class="contenedor__respuesta">{{detalles.origin.name}}</span></p>
+        <p class="contenedor__tipo">Localización: <span class="contenedor__respuesta">{{detalles.location.name}}</span></p>
+
+     </div>
 </div>
