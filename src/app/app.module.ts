@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormErrorsComponent } from './shared/forms/form-errors/form-errors.component';
 import { GalleryComponent } from './shared/components/gallery/gallery.component';
 import { PagesComponent } from './shared/components/pages/pages.component';
+import { CharactersDetailPageComponent } from './pages/characters-detail-page/characters-detail-page.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PagesComponent } from './shared/components/pages/pages.component';
     FormErrorsComponent,
     GalleryComponent,
     PagesComponent,
+    CharactersDetailPageComponent,
 
   ],
   imports: [
