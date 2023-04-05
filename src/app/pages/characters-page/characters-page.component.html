@@ -1,5 +1,11 @@
 
 <div class="contenedor">
-    <app-pages (pagina)="getCharacters($event)"></app-pages>
+    <div class="contenedor__elementos">
+        <app-pages (pagina)="getCharacters($event, searchText)"></app-pages>
+        <div class="contenedor__buscador">
+            <input type="text" class="contenedor__input" [(ngModel)]="searchText">
+            <button class="contenedor__boton" (click)="getCharacters(1, searchText)">Buscar</button>
+        </div>
+    </div>
     <app-gallery [character]="character"></app-gallery>
 </div>

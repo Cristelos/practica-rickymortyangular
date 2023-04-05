@@ -1,4 +1,4 @@
-<div class="contenedor">
+<div *ngIf="detalles" class="contenedor">
     <img src="{{detalles.image}}" alt="{{detalles.name}}">
      <div class="contenedor__datos">
         <h2 class="contenedor__nombre">{{detalles.name}}</h2>

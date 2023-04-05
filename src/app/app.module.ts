@@ -36,7 +36,8 @@ import { CharactersDetailPageComponent } from './pages/characters-detail-page/ch
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
