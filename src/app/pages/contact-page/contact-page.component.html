@@ -1,28 +1,28 @@
 <div class="contenedor">
     <form [formGroup]="contactForm"  class="formulario" (ngSubmit)="submit()" >
         <label>
-            Name:
+            <p>Name:</p>
             <input type="text" formControlName="name">
         </label>
 
         <app-form-errors *ngIf="isSubmit" [controls]="contactForm.controls" [key]="'name'"></app-form-errors>
 
         <label>
-            email:
+            <p>Email:</p>
             <input type="text" formControlName="email">
         </label>
 
         <app-form-errors *ngIf="isSubmit" [controls]="contactForm.controls" [key]="'email'"></app-form-errors>
         
         <label>
-            Age:
+            <p>Age:</p>
             <input type="text" formControlName="age">
         </label>
 
         <app-form-errors *ngIf="isSubmit" [controls]="contactForm.controls" [key]="'age'"></app-form-errors>
         
         <label>
-            Description:
+            <p>Description:</p>
             <textarea formControlName="description"></textarea>
         </label>
 

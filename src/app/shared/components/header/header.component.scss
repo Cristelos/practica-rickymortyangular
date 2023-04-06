@@ -1,25 +1,29 @@
 
-header{
-
+.header{
+    display: flex;
     padding: 10px;
-    background-color: #62C370;
-    margin-bottom: 45px;
-    nav{
+    background-color: #c0df40;
+    flex-direction: column;
+    align-items: center;
+    
+    &__logo{
+        width: 40%;
+    }
+    &__nav{
         display: flex;
         justify-content: space-evenly;
     }
-    a{
+    &__a{
         text-decoration: none;
         font-size: 12px;
         font-weight: 600;
         padding: 15px;
-        color: #ffffff;
+        color: #574d65;
         text-transform: uppercase;
     }
-    a:hover{
-        color: #564D65;
+    &__a:hover{
         transition: all .5s ease-in-out;
-        background-color: #bcd8c0;
-        border-radius: 2px;
+        background-color:#cdff00;
+        border-radius: 3px;
     }
 }
